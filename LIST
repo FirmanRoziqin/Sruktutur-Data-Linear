@@ -5,8 +5,8 @@ fruits = ['orange', 'apple', 'banana', 'kiwi', 'apple', 'banana']
 print(fruits.count('apple')) #2
 print(fruits.count('tangeriene')) #0
 
-print(fruits.index('apple')) #3
-print(fruits.index('apple')) #6
+print(fruits.index('banana')) #3
+print(fruits.index('banana', 4)) #6
 
 fruits.reverse()
 print(fruits)
